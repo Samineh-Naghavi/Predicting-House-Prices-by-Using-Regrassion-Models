@@ -1,3 +1,3 @@
-# Predicting-House-Prices-by-Using-Regrassion-Models
+# Predicting-House-Prices-by-Using-Regression-Models
  
 ![](images.jpg)
