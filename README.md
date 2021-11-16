@@ -19,7 +19,7 @@ of the basement ceiling or the proximity to an east-west railroad. But this play
 With 79 explanatory variables describing (almost) every aspect of residential homes in Ames, Iowa, this competition challenges you to predict the final price of each home.
 
 #### Practice Skills
-<\br> •	Creative feature engineering 
-<\br> •	Advanced regression techniques like random forest and SVR and all the models
+<br /> •	Creative feature engineering 
+<br /> •	Advanced regression techniques like random forest and SVR and all the models
  
 ![](images.jpg)
