@@ -29,13 +29,16 @@ Multiple linear regression (MLR), also known simply as multiple regression, is a
 In polynomial regression, we transform the original features into polynomial features of a given degree and then apply Linear Regression on it. Consider the above linear model Y = a+bX is transformed into something like 
 <br /> **Y=a + bX +cX^2**
 
-##Random Forest Regression: 
-Random forest is an ensemble approach where we take into account the predictions of several decision regression trees.
-<br /> 1.	Select K random points
-<br /> 2.	Identify n where n is the number of decision tree regressors to be created. Repeat steps 1 and 2 to create several regression trees.
-<br /> 3.	The average of each branch is assigned to the leaf node in each decision tree.
-<br /> 4.	To predict output for a variable, the average of all the predictions of all decision trees are taken into consideration.
-Random Forest prevents overfitting (which is common in decision trees) by creating random subsets of the features and building smaller trees using these subsets.
+## Random Forest Regression: 
+Random forests or random decision forests are an ensemble learning method for classification, regression and other tasks that operates by constructing a multitude of decision trees at training time.Ensemble learning method is a technique that combines predictions from multiple machine learning algorithms to make a more accurate prediction than a single model.
+A Random Forest operates by constructing several decision trees during training time and outputting the mean of the classes as the prediction of all the trees. To get a better understanding of the Random Forest algorithm, let’s walk through the steps:
+
+<br /> 1.	Pick at random k data points from the training set.
+<br /> 2.	Build a decision tree associated to these k data points.
+<br /> 3.	Choose the number N of trees you want to build and repeat steps 1 and 2.
+<br /> 4.	For a new data point, make each one of your N-tree trees predict the value of y for the data point in question and assign the new data point to the average across all of the predicted y values.
+
+A Random Forest Regression model is powerful and accurate. It usually performs great on many problems, including features with non-linear relationships. Disadvantages, however, include the following: there is no interpretability, overfitting may easily occur, we must choose the number of trees to include in the model.
 
 
 ## Support Vector Regression:
