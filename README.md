@@ -42,10 +42,10 @@ Random Forest prevents overfitting (which is common in decision trees) by creati
 In SVR, we identify a hyperplane with maximum margin such that the maximum number of data points are within that margin. SVRs are almost similar to the SVM classification algorithm. We will discuss the SVM algorithm in detail in my next article.
 Instead of minimizing the error rate as in simple linear regression, we try to fit the error within a certain threshold. Our objective in SVR is to basically consider the points that are within the margin. Our best fit line is the hyperplane that has the maximum number of points.
 
-### Pros and cons of various Machine Learning Regression algorithms: 
+### Pros and Cons of various Machine Learning Regression algorithms: 
 ![](images1.jpg)
 
-**In order to chose the best model for our data we take care of the performance of each model (R2 ) on our data set .**
+***In order to chose the best model for our data we take care of the performance of each model (R2 ) on our data set .***
  
 
 This repository contains Python implementation of the supervised learning algorithms devised in the Supervised Learning Algorithms for Predicting House Prices by Using Regression Models.
