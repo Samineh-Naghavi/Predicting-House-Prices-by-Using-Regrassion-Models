@@ -45,7 +45,7 @@ Instead of minimizing the error rate as in simple linear regression, we try to f
 ### Pros and cons of various Machine Learning Regression algorithms: 
 ![](images1.jpg)
 
-In order to chose the best model for our data we take care of the performance of each model (R2 ) on our data set .
+**In order to chose the best model for our data we take care of the performance of each model (R2 ) on our data set .**
  
 
 This repository contains Python implementation of the supervised learning algorithms devised in the Supervised Learning Algorithms for Predicting House Prices by Using Regression Models.
