@@ -45,11 +45,18 @@ A Random Forest Regression model is powerful and accurate. It usually performs g
 In SVR, we identify a hyperplane with maximum margin such that the maximum number of data points are within that margin. SVRs are almost similar to the SVM classification algorithm. We will discuss the SVM algorithm in detail in my next article.
 Instead of minimizing the error rate as in simple linear regression, we try to fit the error within a certain threshold. Our objective in SVR is to basically consider the points that are within the margin. Our best fit line is the hyperplane that has the maximum number of points.
 
+
+
 ## Pros and Cons of various Machine Learning Regression algorithms: 
 ![](images1.jpg)
 
 ***In order to chose the best model for our data we take care of the performance of each model (R2 ) on our data set .***
  
+## K-fold Cross-Validation
+The k-fold cross-validation procedure is a standard method for estimating the performance of a ML algorithm or configuration on a dataset. Use cross-validation to detect overfitting, failing to generalize a pattern.In the regression model it used to find the best squared by using the optimal hyper parameters.
+The performance measure reported by k-fold cross-validation is then the average of the values computed in the loop. This approach can be computationally expensive, but does not waste too much data (as is the case when fixing an arbitrary validation set), which is a major advantage in problems such as inverse inference where the number of samples is very small.
+
+![](grid_search_cross_validation.jpg)
 
 ## 
 This repository contains Python implementation of the supervised learning algorithms devised in the Supervised Learning Algorithms for Predicting House Prices by Using Regression Models.
