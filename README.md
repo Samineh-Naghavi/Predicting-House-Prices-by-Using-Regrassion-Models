@@ -47,7 +47,7 @@ To get a better understanding of the Random Forest algorithm, following steps ar
 ### Support Vector Regression (SVR)
 In SVR, a hyperplane with maximum margin is identified such that the maximum number of data points are within that margin. SVRs are almost similar to the SVM classification algorithm. We will discuss the SVM algorithm in detail in classification (See main page). Instead of minimizing the error rate as in simple linear regression, the error is fitted within a certain threshold. The objective in SVR is to consider the points that are within the margin, where the best fit line is the hyperplane that has the maximum number of points.
 
-## Pros and Cons of various Machine Learning Regression algorithms
+## Pros and Cons of Various Machine Learning Regression Algorithms
 
 ![](images1.jpg)
 
