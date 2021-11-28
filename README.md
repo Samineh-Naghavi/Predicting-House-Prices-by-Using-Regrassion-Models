@@ -58,13 +58,15 @@ The performance measure reported by k-fold cross-validation is then the average 
 
 ![](grid_search_cross_validation.jpg)
 
-## 
+## Dataset Explanation 
 This repository contains Python implementation of the supervised learning algorithms devised in the Supervised Learning Algorithms for Predicting House Prices by Using Regression Models.
 of the basement ceiling or the proximity to an east-west railroad. But this playground competition's dataset proves that much more influences price negotiations than the number of bedrooms or a white-picket fence.
 With 79 explanatory variables describing (almost) every aspect of residential homes in Ames, Iowa, this competition challenges you to predict the final price of each home.
+
+![](images.jpg)
 
 #### Practice Skills
 <br /> •	Creative feature engineering 
 <br /> •	Advanced regression techniques like random forest and SVR and Linear Regression models
  
-![](images.jpg)
+
