@@ -1,4 +1,4 @@
-# Predicting-House-Prices-by-Using-Regression-Models
+# Predicting House Prices by Using Regression Models
 ## Supervised Learning: 
 Supervised learning is the most common subbranch of machine learning today. Typically, new machine learning practitioners will begin their journey with supervised learning algorithms.
 
